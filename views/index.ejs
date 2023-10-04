@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="./assets/icon-chat.png"
+          alt="image-chat"
+          style="width: 40px; height: 40px"
+        />
+      </div>
+      <div class="discussion">
+        <section class="discussion" id="discussion"></section>
+      </div>
+      <div class="footer">
+        <button id="chBtn">+</button>
+        <input type="file" id="chFiles" hidden />
+        <input type="text" id="msg-box" />
+        <button id="btn-send"></button>
+      </div>
+    </div>
+  </body>
+</html>
